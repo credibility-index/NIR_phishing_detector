@@ -52,7 +52,10 @@ NIR_phishing_detector/
 [![HuggingFace](https://huggingface.co/jesthy/NIR_phishing_v3.2/badge.svg)](https://huggingface.co/jesthy/NIR_phishing_v3.2)
 [![F1=0.849](https://img.shields.io/badge/F1_macro-0.849-brightgreen.svg)](https://huggingface.co/jesthy/NIR_phishing_v3.2)
 
-# 🤖 Модель (HuggingFace Hub)
+# 🤖 Модель (Hugging Face Hub)
+Веса модели (48MB) размещены в официальном репозитории:
+👉 [jesthy/NIR_phishing_v3.2](https://huggingface.co/jesthy/NIR_phishing_v3.2)
+*Файл загружается автоматически при первом запуске через `huggingface_hub`.*
 # 🎓 НИР МИСИС 2026
 **Ana B** | Институт Компьютерных Наук | Наука о данных | Защита: июнь 2026
 

@@ -4,7 +4,7 @@
 [![F1=0.849](https://img.shields.io/badge/F1_macro-0.849-brightgreen.svg)](https://huggingface.co/spaces)
 [![Gradio](https://img.shields.io/badge/Gradio-WebUI-green.svg)](https://gradio.app)
 
-**НИР "Детектор фишинговых SMS" | МИСиС 2026 | Ana Bee**
+**НИР "Детектор фишинговых сообщений" | МИСИС 2026 | Ana B**
 
 Гибридная модель **RuBERT-tiny + BiLSTM** для классификации SMS:
 - 🚨 **PHISHING**: 99.5% (фишинг, мошенничество)

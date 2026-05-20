@@ -49,7 +49,7 @@ def gradio_predict(text):
 🚨 Предсказание: {prediction}  
 💯 Уверенность: {confidence:.1%}
 
-*📊 Детали вероятностей:*
+📊 Детали вероятностей:
 {probs_md}
 """
 
@@ -64,14 +64,14 @@ demo = gr.Interface(
     outputs=gr.Markdown(),
     title="🚨 NIR_PHISHING Detector v3.2",
     description="""
-    **НИР МИСИС 2026 | Ana B**
+    НИР МИСИС 2026 | Ana B
     
-    Гибридная модель на базе **RuBERT-tiny + BiLSTM** для защиты пользователей от мошенничества.
+    Гибридная модель на базе RuBERT-tiny + BiLSTM для защиты пользователей от мошенничества.
     
-    **Метрики качества:**
-    * PHISHING F1: **0.995**
-    * REAL/FAKE F1: **~0.84**
-    * F1_macro: **0.849**
+    Метрики качества:
+     PHISHING F1: 0.995
+     REAL/FAKE F1: ~0.84
+     F1_macro: 0.849
     """,
     examples=[
         ["BTC x10! Депозит 1000$ → 10k! t.me/wallet"],
